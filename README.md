@@ -26,8 +26,8 @@ The file contents are inspired by jekyll, and should look something like this:
     view: index         # any values can be added to be used by your application
     mustache: furry
     ----
-    # Content can be added here, as well as some {{mustache}} to show content.
-    Passing the `formatBody` option allows you to replace markdown if wanted.
+    # Content can be added here, as well as some {{mustache}} to get values from node.
+    Passing the `formatBody` option when creating a weave instance allows you to replace markdown if wanted.
 
 When loaded you'll get an object structure with your values:
 
